@@ -143,7 +143,7 @@ const questions = [
     questionElement.textContent = "";
     optionsElement.innerHTML = "";
     submitBtn.style.display = "none";
-    if (score >= 5) {
+    if (score >= 10) {
       scoreElement.innerHTML = `Congratulations! Your score: ${score}/${questions.length}.  Refresh the page to Start Over`;
       
     } else {
