@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(24, 23, 23);
+    margin-top: 43vh;
+    
+}
+.card1{
+    background-color: rgb(23, 24, 24);
+    color: rgb(243, 243, 243);
+    border: 2px solid rgb(63, 62, 62);
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    width: 500px;
+    padding: 10px 10px 20px;
+    margin: auto;
+  
+}
+
+.btn{
+   display: flex;
+   gap: 50px;
+   margin: auto 150px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.849);
+    border: none;
+    padding:0px 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 7px;
+    color: rgb(114, 114, 114);
+    text-align: center;
+   
+}
+button:hover {
+    background-color: rgb(46, 48, 48);
+    height:60px;
+    width: 200px;
+    cursor: pointer;
+    color: rgb(215, 215, 221);
+}
+h1{
+    color: rgb(114, 114, 114);
+    text-align: center;
+    
+}
+p{
+    color:  rgb(114, 114, 114) ;
+    text-align: center;
+}
